@@ -1,0 +1,82 @@
+
+
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #0b101b;
+    -fx-text-fill: #e2e8f0;
+}
+
+
+.nav-bar {
+    -fx-background-color: #151b26;
+    -fx-border-color: #2d3748;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 15;
+}
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #94a3b8;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.nav-button:hover { -fx-text-fill: #38bdf8; }
+
+.section-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+
+.card-modern {
+    -fx-background-color: #151b26;
+    -fx-background-radius: 8px;
+    -fx-border-color: #2d3748;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-padding: 20;
+    -fx-cursor: hand;
+}
+.card-modern:hover {
+    -fx-border-color: #38bdf8;
+    -fx-background-color: #1a2230;
+}
+
+
+.text-field, .text-area, .combo-box {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: white;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6;
+}
+.text-field:focused, .text-area:focused {
+    -fx-border-color: #38bdf8;
+}
+
+
+.btn-action {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-success {
+    -fx-background-color: #10b981;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+
+.dashboard-tile {
+    -fx-background-radius: 8px;
+    -fx-padding: 20px;
+}
+.tile-count { -fx-fill: white; -fx-font-size: 36px; -fx-font-weight: bold; }
+.tile-label { -fx-text-fill: #cbd5e1; -fx-font-size: 13px; -fx-font-weight: bold; }
+
+
+.badge-pill { -fx-padding: 4 10; -fx-background-radius: 6px; -fx-font-weight: bold; -fx-text-fill: white; }
